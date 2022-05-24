@@ -66,9 +66,10 @@ class PhoneNumberKit private constructor(
         }
     }
 
-   /* private var textChangedListener: MaskedTextChangedListener? = null
+    private var textChangedListener: MaskedTextChangedListener? = null
 
-    private fun setupListener(editText: EditText, pattern: String) {
+    /*private fun setupListener(editText: EditText, pattern: String) {
+        TODO("How to implement Redmadrobot library?")
         editText.removeTextChangedListener(textChangedListener)
         textChangedListener = installOn(
             editText,
@@ -352,3 +353,5 @@ class PhoneNumberKit private constructor(
     }
 
 }
+
+
