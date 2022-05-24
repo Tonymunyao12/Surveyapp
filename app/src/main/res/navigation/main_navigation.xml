@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.mulatya.surveyapp.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_mainActivity_to_surveyActivity"
+            app:destination="@+id/surveyActivity" />
+
+        <action
+            android:id="@+id/action_mainActivity_to_signupActivity"
+            app:destination="@+id/signupActivity" />
+    </activity>
+
+    <activity
+        android:id="@+id/signupActivity"
+        android:name="com.mulatya.surveyapp.SignupActivity"
+        android:label="signup_activity"
+        tools:layout="@layout/signup_activity">
+
+        <action
+            android:id="@+id/action_signupActivity_to_mainActivity"
+            app:destination="@+id/mainActivity" />
+
+
+    </activity>
+
+
+    <activity
+        android:id="@+id/surveyActivity"
+        android:name="com.mulatya.surveyapp.SurveyActivity"
+        android:label="survey_activity"
+        tools:layout="@layout/survey_activity"
+        />
+
+    <activity
+        android:id="@+id/endnoteActivity"
+        android:name="com.mulatya.surveyapp.EndNoteActivity"
+        android:label="endnote_activity"
+        tools:layout="@layout/endnote_activity"
+        />
+
+</navigation>
