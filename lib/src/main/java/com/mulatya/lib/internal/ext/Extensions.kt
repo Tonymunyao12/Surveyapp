@@ -21,7 +21,6 @@ internal fun String?.clearSpaces(): String? {
 }
 
 internal fun <T> State.doIfAttached(block: State.Attached.() -> T): T?{
-    TODO("find reference to the Attached")
     if (this is State.Attached) return block.invoke(this)
     return null
 }
