@@ -66,7 +66,7 @@ class PhoneNumberKit private constructor(
         }
     }
 
-    private var textChangedListener: MaskedTextChangedListener? = null
+   // private var textChangedListener: MaskedTextChangedListener? = null
 
     /*private fun setupListener(editText: EditText, pattern: String) {
         TODO("How to implement Redmadrobot library?")
@@ -202,7 +202,7 @@ class PhoneNumberKit private constructor(
 
     }
 
-   /* fun setupCountryPicker(
+   fun setupCountryPicker(
         activity: AppCompatActivity,
         itemLayout: Int = R.layout.item_country_picker,
         searchEnabled: Boolean = false,
@@ -230,7 +230,7 @@ class PhoneNumberKit private constructor(
         }
 
 
-    }*/
+    }
 
    /*
     * Parses raw phone number into phone object
