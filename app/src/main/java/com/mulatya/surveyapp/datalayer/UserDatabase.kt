@@ -31,6 +31,7 @@ import androidx.room.RoomDatabase
                      .fallbackToDestructiveMigration()
                      .build()
 
+
                  INSTANCE = instance
              }
              return instance
