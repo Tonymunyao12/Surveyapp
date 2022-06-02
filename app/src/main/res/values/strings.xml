@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Surveyapp</string>
     <string name="new_user_title">New User Signup</string>
-    <string name="signin_title">Login User</string>
+    <string name="login_title">Login</string>
     <string name="username_hint">Type Full Names</string>
     <string name="new_username">Type Full Name</string>
     <string name="phone_number">Phone Number</string>
@@ -9,6 +9,7 @@
     <string name="password">password</string>
 
     <string name="signup_btn">SignUp</string>
+    <string name="login_btn">Login</string>
 
 
 
