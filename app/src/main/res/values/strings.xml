@@ -10,6 +10,8 @@
 
     <string name="signup_btn">SignUp</string>
     <string name="login_btn">Login</string>
+    <string name="register_textview">Register!</string>
+
 
 
 
