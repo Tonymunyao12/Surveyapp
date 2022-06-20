@@ -19,6 +19,9 @@
     <string name="gender_btn">Next</string>
     <string name="size_of_farm">Farm Size</string>
     <string name="farm_size_btn">Next</string>
+    <string name="end_note">Thank you for participating in the Survey</string>
+    <string name="take_photo_btn">Take Photo</string>
+    <string name="submit_btn">Submit</string>
     <string name="name_btn">Next</string>
     <string name="name_textview">Your Name</string>
     <string name="name_hint_edit_text">Type Your Name"</string>
