@@ -14,8 +14,15 @@
     <string name="start_survey_textview">Start Survey</string>
     <string name="start_survey_btn">Start</string>
     <string name="gender_textview">Your Gender</string>
+    <string name="farm_size_edit_text">Your Farm Size (Hectares)</string>
     <string name="gender_hint">Select Your Gender</string>
     <string name="gender_btn">Next</string>
+    <string name="size_of_farm">Farm Size</string>
+    <string name="farm_size_btn">Next</string>
+    <string name="name_btn">Next</string>
+    <string name="name_textview">Your Name</string>
+    <string name="name_hint_edit_text">Type Your Name"</string>
+    <string name="name_edit_text">Type Your Name</string>
 
     <!-- options for gender fragment -->
     <string-array name="Gender">
