@@ -22,7 +22,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import com.mulatya.surveyapp.R
+
 
 class FarmerGenderFragment : Fragment() {
 
@@ -32,16 +34,28 @@ class FarmerGenderFragment : Fragment() {
 
     private lateinit var viewModel: FarmerGenderViewModel
 
-    override fun onCreateView(
+            override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_farmer_gender, container, false)
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(this).get(FarmerGenderViewModel::class.java)
+
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        val genderOptions = listOf<String>("Male", "Female", "Other")
+
+        //val genderOptions = resources.getStringArray(R.array.Gender)
+        // Array adapter and passing the context, dropdown layout, array
+        val arrayAdapter = ArrayAdapter(requireContext(), R.layout.gender_dropdown_item, genderOptions)
     }
 
 }
