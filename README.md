@@ -67,17 +67,17 @@ Yet to be updated.
 
 ## Other Information
 
-### Author 
+### Author: 
 #### Mulatya
-### Contact 
+### Contact: 
 #### munyaotony12@gmail.com
-### Open-Source 
+### Open-Source: 
 #### StackOverFlow, CodePath
-### Author 
+### Author: 
 #### Tony Mulatya
-### LICENSE 
+### LICENSE: 
 #### Apache
-### Contribution 
+### Contribution: 
     
     
          
