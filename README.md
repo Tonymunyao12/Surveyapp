@@ -45,11 +45,11 @@ The IDE, languages, libraries and their versions used:
 ## Setup
 To start using the application:
 ````
-$ git clone 
-// add the link to the repo
+$ git clone https://github.com/Tonymunyao12/Surveyapp.git
+
 ````
 ## Status
-Still under Development phase
+Still under Development phase.
 
 ## Launch
 
@@ -59,11 +59,11 @@ Android 9, >= API 26
 Inspired by a given task.
 
 ## Sources
- Some of the resources/tutorials used as a reference.
-// list them in sub-categories
+Some of the resources/tutorials used as a reference.
+
 
 ## Future Implementation/Improvements
-
+Yet to be updated.
 
 ## Other Information
 
