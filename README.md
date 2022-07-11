@@ -67,12 +67,17 @@ Inspired by a given task.
 
 ## Other Information
 
-### Author #### Mulatya
-### Contact #### munyaotony12@gmail.com
-### Open-Source #### StackOverFlow, CodePath
-### Author #### Tony Mulatya
-### LICENSE #### Apache
-### Contribution ### 
+### Author 
+#### Mulatya
+### Contact 
+#### munyaotony12@gmail.com
+### Open-Source 
+#### StackOverFlow, CodePath
+### Author 
+#### Tony Mulatya
+### LICENSE 
+#### Apache
+### Contribution 
     
     
          
