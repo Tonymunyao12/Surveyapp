@@ -28,6 +28,18 @@
     <string name="name_hint_edit_text">Type Your Name"</string>
     <string name="name_edit_text">Type Your Name</string>
 
+    <string name="title_name">Name</string>
+    <string name="title_gender">Gender</string>
+    <string name="title_farm_size">Farm Size</string>
+    <string name="title_farmer_name">Name</string>
+    <string name="title_end_note">End Note</string>
+    <string name="cd_name">Name</string>
+    <string name="cd_gender">Gender</string>
+    <string name="cd_farm_size">Farm Size</string>
+    <string name="cd_end_note">End Note</string>
+
+
+
     <!-- options for gender fragment -->
     <string-array name="Gender">
         <item>Male</item>
